@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Delicious</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><i class="fas fa-utensils"></i> Delicious</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="menu.html" class="nav-link">Menu</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="#" class="nav-link order-btn">Order Now</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form & Info -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="order">Order Inquiry</option>
+                                <option value="complaint">Complaint</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="catering">Catering Services</option>
+                                <option value="partnership">Partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" placeholder="Tell us how we can help you..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+                        <p>Available 24x7 for orders and support</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:info@delicious.com">contact@delicious.com</a></p>
+                        <p>We'll respond within 24 hours</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>459 Food Street</p>
+                        <p>Connaught Place, Delhi 110001</p>
+                        <p>India</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Business Hours</h3>
+                        <p>Kitchen: 10:00 AM - 11:00 PM</p>
+                        <p>Customer Support: 24x7</p>
+                        <p>Online Ordering: Always Open</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact -->
+    <section class="quick-contact">
+        <div class="container">
+            <h2>Need Immediate Assistance?</h2>
+            <p>For urgent orders or immediate support, reach out to us directly</p>
+            <div class="quick-contact-buttons">
+                <a href="tel:+919876543210" class="quick-btn">
+                    <i class="fas fa-phone"></i> Call Now
+                </a>
+                <a href="https://wa.me/919876543210" class="quick-btn">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="#" class="quick-btn">
+                    <i class="fas fa-shopping-cart"></i> Order Online
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Find Us</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <p>Interactive Map Coming Soon</p>
+                    <p>123 Food Street, Connaught Place, Delhi 110001</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What are your delivery hours?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We deliver from 10:00 AM to 11:00 PM, 7 days a week. Online ordering is available 24x7, and you can schedule orders for the next day.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>What is your minimum order amount?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>There's no minimum order amount. However, free delivery is available on orders above ₹299. Orders below this amount have a delivery charge of ₹40.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you offer refunds for cancelled orders?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer full refunds for orders cancelled before preparation begins. If the order is already being prepared, we can offer store credit or partial refund based on the situation.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Can I customize my order?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! You can customize spice levels, add special instructions, or request modifications. Just mention your preferences in the order notes or call us directly.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Do you cater to dietary restrictions?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer various options for different dietary needs including vegan, gluten-free, and low-spice options. Please mention your requirements when ordering.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-utensils"></i> Delicious</h3>
+                    <p>Bringing authentic Indian flavors to your doorstep with love and care.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                        <p><i class="fas fa-envelope"></i> contact@delicious.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 459 Food Street, Delhi, India</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Opening Hours</h4>
+                    <div class="opening-hours">
+                        <p>Monday - Sunday</p>
+                        <p>10:00 AM - 11:00 PM</p>
+                        <p>24x7 Online Ordering</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Delicious. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+   
+</body>
+</html>
